@@ -1,0 +1,60 @@
+#portada{
+    width: 500px;
+    height: 250px;
+}
+
+#descuento{
+    width: 500px;
+    height: 405px;
+}
+
+#cc{
+    width: 20px;
+}
+
+#redInstagram{
+    border: none;
+}
+
+#twitter{
+    border: none;
+}
+
+#tiktok{
+    border: none;
+}
+
+.video{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.contenedorVideo{
+    position: fixed;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+    margin-left: 100%;
+    margin-bottom: 42%;
+    animation-name: slidein;
+    animation-duration: 5s;
+    animation-delay: 3s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes slidein{
+    from{
+        margin-left: 100%;
+        width: 100%;
+    }
+
+    to{
+        margin-left: 0%;
+        width: 100%;
+    }
+}
